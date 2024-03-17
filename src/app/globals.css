@@ -105,3 +105,36 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Portfolio Entry Card Classes */
+.portfolio-entry-card {
+  width: 100%;
+  max-width: 750px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: var(--border-radius);
+  background: linear-gradient(
+    to bottom right,
+    rgb(var(--tile-start-rgb)),
+    rgb(var(--tile-end-rgb))
+  );
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  border-image: var(--tile-border) 1;
+  transition: all 0.3s ease;
+}
+
+.portfolio-entry-card-image-container {
+  flex: 1;
+  margin: 10px;
+  align-self: center;
+}
+
+.portfolio-entry-card-content-container {
+  margin: 10px
+}
