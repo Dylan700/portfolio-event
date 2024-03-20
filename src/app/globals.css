@@ -133,8 +133,55 @@ a {
   flex: 1;
   margin: 10px;
   align-self: center;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-entry-card-content-container {
-  margin: 10px
+  margin: 10px;
+  flex: 3;
+}
+
+.portfolio-entry-card-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.1rem;
+  border-radius: 999px;
+  background: var(--secondary-glow);
+  color: rgb(var(--foreground-rgb));
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.skill-badge-text {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.description {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.heading-container {
+  padding: 1rem;
+  margin: 1rem;
+  width: 60%;
+  min-width: 300px;
 }
