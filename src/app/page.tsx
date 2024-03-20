@@ -13,18 +13,21 @@ export default function Home() {
             description: "This website is a portfolio of my work, and a demonstration of my skills.",
             image: "/react.webp",
             skills: ["React", "Next.js", "CSS", "HTML", "JavaScript"],
+            href: "project",
           },
           {
             title: "Project 2",
             description: "Description 2",
             image: "/github-mark.png",
             skills: ["Skill 1", "Skill 2", "Skill 3"],
+            href: "project-2",
           },
           {
             title: "Project 3",
             description: "Description 3",
             image: "/selenium.png",
             skills: ["Skill 1", "Skill 2", "Skill 3"],
+            href: "project-3",
           },
         ]
       } />

@@ -6,6 +6,7 @@ type Props = {
 		description: string;
 		image: string;
 		skills: string[];
+		href: string;
 	}[];
 };
 
@@ -20,6 +21,7 @@ const PortfolioEntryCardGroup = (props: Props) => {
 					description={entry.description}
 					image={entry.image}
 					skills={entry.skills}
+					href={`/${entry.href}`}
 				/>
 			))}
 		</div>

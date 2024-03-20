@@ -185,3 +185,16 @@ a {
   width: 60%;
   min-width: 300px;
 }
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: var(--primary-glow);
+  color: rgb(var(--foreground-rgb));
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
