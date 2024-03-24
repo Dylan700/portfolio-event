@@ -118,11 +118,8 @@ a {
   padding: 1rem;
   margin: 1rem;
   border-radius: var(--border-radius);
-  background: linear-gradient(
-    to bottom right,
-    rgb(var(--tile-start-rgb)),
-    rgb(var(--tile-end-rgb))
-  );
+  background: white;
+  color: black;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid transparent;
   border-image: var(--tile-border) 1;
@@ -189,8 +186,8 @@ a {
 .button {
   padding: 0.5rem 1rem;
   border-radius: 999px;
-  background: var(--primary-glow);
-  color: rgb(var(--foreground-rgb));
+  background: white;
+  color: black;
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
