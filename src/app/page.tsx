@@ -5,7 +5,7 @@ import PortfolioEntryCardGroup from "@/components/PortfolioEntryCardGroup";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Heading title={"My Portfolio"} description={" I am a student studying software engineering... I absolutely love Web Development! I created this website at a Google Event, which demonstrates my passion for all things tech."}/>
+      <Heading title={"My Portfolio"} description={" I am a student studying software engineering... I absolutely love Web Development! I created this website at a GDSC Event, which demonstrates my passion for all things tech."}/>
       <PortfolioEntryCardGroup entries={
         [
           {
